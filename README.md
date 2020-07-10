@@ -91,10 +91,11 @@
 	* установить generic_apiview в INSTALLED_APPS
 	* указать в моделях данных models.Model аттрибут serialize_fields перечислящий поля для сериализации
 ```
-	   
-		serialize_fields = [
+	...
+	serialize_fields = [
 			'id', 'title', 'description', 'authors'
 		]
+	...
 ```
 
 #### все эндпоинты будут даступны по аддресу: ...:8000/api/.... прим. (http://0.0.0.0:8000/api/book)
